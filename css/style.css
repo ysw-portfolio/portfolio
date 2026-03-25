@@ -937,9 +937,32 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .grax_tm_portfolio ul li .list_inner:hover .overlay{
-	opacity: 1;
+	opacity: 0.6;
 	visibility: visible;
 }
+
+.grax_tm_portfolio ul li:nth-child(1) .overlay {
+    background-image: url('../img/portfolio/hover_1.jpg');
+}
+.grax_tm_portfolio ul li:nth-child(2) .overlay {
+    background-image: url('../img/portfolio/hover_2.jpg');
+}
+.grax_tm_portfolio ul li:nth-child(3) .overlay {
+    background-image: url('../img/portfolio/hover_3.jpg');
+}
+.grax_tm_portfolio ul li:nth-child(4) .overlay {
+    background-image: url('../img/portfolio/hover_4.jpg');
+}
+.grax_tm_portfolio ul li:nth-child(5) .overlay {
+    background-image: url('../img/portfolio/hover_5.jpg');
+}
+.grax_tm_portfolio ul li:nth-child(6) .overlay {
+    background-image: url('../img/portfolio/hover_6.jpg');
+}
+.grax_tm_portfolio ul li:nth-child(7) .overlay {
+    background-image: url('../img/portfolio/hover_7.jpg');
+}
+
 .grax_tm_portfolio .details{
 	position: absolute;
 	bottom: 20px;
@@ -1049,7 +1072,7 @@ h6 { font-size: 16px; }
 	bottom: 0px;
 	left: 0px;
 	right: 0px;  
-    background-image: url(..//img/patterns/inspiration-geometry.png);
+    /* background-image: url(..//img/patterns/inspiration-geometry.png); */
     background-repeat: repeat;
     opacity: 1; /**  If you choose lighter pattern image as background please Decrease opacity  **/
     z-index: 2;
@@ -1085,7 +1108,7 @@ h6 { font-size: 16px; }
 	content: "";
 	width: 20px;
 	height: 4px;
-	background-color: #fff;
+	background-color: #f28a03;
 	bottom: 11px;
 	left: 100%;
 	opacity: 1;
