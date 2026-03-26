@@ -962,6 +962,10 @@ h6 { font-size: 16px; }
 .grax_tm_portfolio ul li:nth-child(7) .overlay {
     background-image: url('../img/portfolio/hover_7.jpg');
 }
+.grax_tm_portfolio ul li:nth-child(8) .overlay {
+    background-image: url('../img/portfolio/hover_8.jpg');
+	pointer-events: none;
+}
 
 .grax_tm_portfolio .details{
 	position: absolute;
