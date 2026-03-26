@@ -540,6 +540,11 @@ function grax_tm_popup() {
 			preloader: false,
 			fixedContentPos: false,
 			iframe: {
+				markup:
+					'<div class="mfp-iframe-scaler">' +
+					'<div class="mfp-close"></div>' +
+					'<iframe class="mfp-iframe" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>' +
+					'</div>',
 				patterns: {
 					youtube: {
 						index: 'youtube.com/',
